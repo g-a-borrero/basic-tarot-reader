@@ -36,4 +36,4 @@ def draw_a_card(cards_copy=tarot, reversals=True, layout="One Card"):
 	return(drawn)
 
 if __name__ == "__main__":
-	draw_a_card(layout="celtic cross")
+	draw_a_card(layout="Celtic Cross")
