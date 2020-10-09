@@ -42,7 +42,7 @@ revs_button.place(relx=0.33, rely=0)
 
 layout = StringVar(master)
 layout.set("One Card")
-set_layout = OptionMenu(master, layout, "One Card", "Three Card", "Celtic Cross")
+set_layout = OptionMenu(master, layout, "One Card", "Three Card", "Celtic Cross", "Romani")
 set_layout.place(relx=0.66, rely=0)
 
 all_deck = {"Full Deck": tarot, 
